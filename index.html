@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script src="javascript/jquery-1.11.2.min.js"></script>
+		<script src="javascript/angular.min.js"></script>
+	</head>
+	<body ng-app="zakavila" ng-controller="ContentController">
+	  <div class="titleContainer green" style="font-size:20vh">
+	  	<div>zak</div>
+	  	<div>avila</div>
+	  </div>
+	  <div id="pageContent" ng-switch="contentObject.type">
+		  <div ng-switch-when="choices" class="contentContainer choicesContainer blue">
+		  	<div class="choiceContainer">
+		  		<div ng-repeat="choice in contentObject.details.choices" class="choice">
+		  			<div class="choiceImageContainer">
+		  				<img class="choiceImage" src="{{choice.imageUrl}}"></img>
+		  				<div class="choiceText">{{choice.text}}</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		  </div>
+		  <div ng-switch-when="textLine" class="contentContainer textLineContainer blue">
+		  	<div class="textLine">{{contentObject.details.text}}</div>
+		  </div>
+		  <div ng-switch-when="description" class="contentContainer descriptionContainer blue">
+		  	<div class="descriptionInnerContainer">
+			  	<img src="{{contentObject.details.imageUrl}}" class="descriptionImage green"></img>
+			  	<div class="descriptionTextContainer">
+			  		<div ng-bind-html="contentObject.details.text" class="descriptionText"></div>
+			  	</div>
+		    </div>
+		  </div>
+	  </div>
+	<script src="javascript/index.js"></script>
+	</body>
+</html>

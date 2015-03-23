@@ -1,0 +1,138 @@
+{
+	"index": {
+		"title": "",
+		"type": "choices",
+		"details": {
+			"choices": [
+				{
+					"target": "about",
+					"imageUrl": "images/man.png",
+					"text": "about"
+				},
+				{
+					"target": "projects",
+					"imageUrl": "images/lightbulb.png",
+					"text": "projects"
+				},
+				{
+					"target": "blog",
+					"imageUrl": "images/edit.png",
+					"text": "blog"
+				},
+				{
+					"target": "contact",
+					"imageUrl": "images/email.png",
+					"text": "contact"
+				}
+			]
+		}
+	},
+	"about": {
+		"title": "about",
+		"type": "description",
+		"details": {
+			"imageUrl": "",
+			"text": "i am zak avila\n\nthis is my personal website"
+		}
+	},
+	"projects": {
+		"title": "projects",
+		"type": "choices",
+		"details": {
+			"choices": [
+				{
+					"target": "phraze",
+					"imageUrl": "images/phraze.png",
+					"text": "phraze"
+				},
+				{
+					"target": "spotter",
+					"imageUrl": "images/spotter.png",
+					"text": "spotter"
+				},
+				{
+					"target": "genremap",
+					"imageUrl": "",
+					"text": "genremap"
+				},
+				{
+					"target": "awhile",
+					"imageUrl": "images/awhile.png",
+					"text": "awhile"
+				},
+				{
+					"target": "superrdio",
+					"imageUrl": "images/superrdio.png",
+					"text": "SuperRdio"
+				},
+				{
+					"target": "hourtracker",
+					"imageUrl": "images/hourtracker.png",
+					"text": "HourTracker"
+				}
+			]
+		}
+	},
+	"blog": {
+		"title": "blog",
+		"type": "textLine",
+		"details": {
+			"text": "coming soon"
+		}
+	},
+	"contact": {
+		"title": "contact",
+		"type": "textLine",
+		"details": {
+			"text": "email.address@domain.com"
+		}
+	},
+	"phraze": {
+		"title": "phraze",
+		"type": "description",
+		"details": {
+			"imageUrl": "",
+			"text": "phraze provides you with random phrases and a timer. It can be used for catch phrase, pictionary, charades, etc."
+		}
+	},
+	"spotter": {
+		"title": "spotter",
+		"type": "description",
+		"details": {
+			"imageUrl": "",
+			"text": "spotter helps you find your nearby friends. It uses bluetooth to do this, but without pairing.<br><br>It is currently in the app store as 'spotter.'"
+		}
+	},
+	"genremap": {
+		"title": "genremap",
+		"type": "description",
+		"details": {
+			"imageUrl": "",
+			"text": "genremap uses your facebook artists to create an interactive diagram showing what genres of music you like. It does this for each of your friends as well and uses a custom algorithm to determine which friends are most similar.<br>genremap is located at zakavila.com/genremap"
+		}
+	},
+	"awhile": {
+		"title": "awhile",
+		"type": "description",
+		"details": {
+			"imageUrl": "",
+			"text": "The brainchild of Sebastian Frith, awhile shows you your age converts to different time increments. See awhileapp.com"
+		}
+	},
+	"superrdio": {
+		"title": "SuperRdio",
+		"type": "description",
+		"details": {
+			"imageUrl": "",
+			"text": "Uses lastfm api and the Rdio sdk to create a different interface with the playlist as a drawer."
+		}
+	},
+	"hourtracker": {
+		"title": "HourTracker",
+		"type": "description",
+		"details": {
+			"imageUrl": "",
+			"text": "HourTracker contextually determines when you are at work and keeps track of your hours."
+		}
+	}
+}

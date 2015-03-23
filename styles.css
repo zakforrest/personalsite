@@ -1,0 +1,182 @@
+
+/*
+Colors:
+Green: #679281;
+Blue: #6E90A6;
+Gray: #9CB0BD;
+White: #EEF4EA;
+*/
+
+.green {
+	background-color: #BBCC44;
+}
+
+.blue {
+	background-color: #6E90A6;
+}
+
+.gray {
+	background-color: #9CB0BD;
+}
+
+@font-face {
+	font-family: "Arimo";
+	src: url(Arimo-Regular.ttf) format("truetype");
+}
+
+body {
+	margin: 0px;
+	font-family: "Arimo", Helvetica;
+	color: #EEF4EA;
+}
+
+.titleContainer {
+	height: 80vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.contentContainer {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.choicesContainer {
+	display: table;
+}
+
+.textLineContainer {
+	font-size: 5vw;
+}
+
+.descriptionContainer {
+	display: table;
+}
+
+.containerBackButton {
+	height: 9vh;
+	margin: 0px 0px 0vh 1vh;
+	position: absolute;
+	bottom: 0px;
+	font-size: 5vh;
+}
+
+.choiceContainer {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.choice {
+	width: 270px;
+	height: 270px;
+	margin: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.choice:hover {
+	background-color: #9CB0BD;
+}
+
+.choiceImageContainer {
+	display: inline-block;
+	margin-top: 25px;
+	background-color: #9cB0BD;
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+.choiceImage {
+	width: 130px;
+	height: 130px;
+	top: 35px;
+	left: 35px;
+	position: absolute;
+}
+
+.choiceText {
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	font-size: 22px;
+}
+
+.textLine {
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
+	position: relative;
+}
+
+.descriptionInnerContainer {
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.descriptionImage {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.descriptionTextContainer {
+	display: inline-block;
+	width: 300px;
+	vertical-align: middle;
+}
+
+.descriptionText {
+	margin-top: 20px;
+}
+
+@media only screen and (max-device-width: 415px) {
+	.choice {
+		width: 90vw;
+		height: 90vw;
+	}
+
+	.choice:hover {
+		background-color: transparent;
+	}
+
+	.choiceImageContainer {
+		width: 70vw;
+		height: 70vw;
+	}
+
+	.choiceImage {
+		width: 45vw;
+		height: 45vw;
+		top: 12.5vw;
+		left: 12.5vw;
+	}
+
+	.choiceText {
+		font-size: 7vw;
+	}
+
+	.descriptionInnerContainer {
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+
+	.descriptionImage {
+		width: 70vw;
+		height: 70vw;
+	}
+
+	.descriptionTextContainer {
+		width: 70vw;
+		font-size: 4vw;
+	}
+}
