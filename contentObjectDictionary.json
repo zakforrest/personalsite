@@ -42,12 +42,12 @@
 			"choices": [
 				{
 					"target": "phraze",
-					"imageUrl": "images/phraze.png",
+					"imageUrl": "images/phrazeicon.png",
 					"text": "phraze"
 				},
 				{
 					"target": "spotter",
-					"imageUrl": "images/spotter.png",
+					"imageUrl": "images/spottericon.png",
 					"text": "spotter"
 				},
 				{
@@ -57,17 +57,17 @@
 				},
 				{
 					"target": "awhile",
-					"imageUrl": "images/awhile.png",
+					"imageUrl": "images/awhileicon.png",
 					"text": "awhile"
 				},
 				{
 					"target": "superrdio",
-					"imageUrl": "images/superrdio.png",
+					"imageUrl": "images/superrdioicon.png",
 					"text": "SuperRdio"
 				},
 				{
 					"target": "hourtracker",
-					"imageUrl": "images/hourtracker.png",
+					"imageUrl": "images/hourtrackericon.png",
 					"text": "HourTracker"
 				}
 			]
