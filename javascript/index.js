@@ -9,6 +9,10 @@ var contentObjectDictionary = {};
 
 $(document).ready(function() {
 
+	$(document).on("click", ".title", function() {
+		window.location.hash = "";
+	});
+
 	$.getJSON("contentObjectDictionary.json", function(data) {
 		contentObjectDictionary = data;
 		for (var property in contentObjectDictionary) {

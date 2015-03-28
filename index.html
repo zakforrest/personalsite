@@ -7,11 +7,12 @@
 	</head>
 	<body ng-app="zakavila" ng-controller="ContentController">
 	  <div class="titleContainer green" style="font-size:20vh">
-	  	<div>zak</div>
-	  	<div>avila</div>
+	  	<div class="title">zak</div>
+	  	<div class="title">avila</div>
 	  </div>
 	  <div id="pageContent" ng-switch="contentObject.type">
 		  <div ng-switch-when="choices" class="contentContainer choicesContainer blue">
+  		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="choiceContainer">
 		  		<div ng-repeat="choice in contentObject.details.choices" class="choice">
 		  			<div class="choiceImageContainer">
@@ -22,11 +23,13 @@
 		  	</div>
 		  </div>
 		  <div ng-switch-when="textLine" class="contentContainer textLineContainer blue">
+  		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="textLine">{{contentObject.details.text}}</div>
 		  </div>
 		  <div ng-switch-when="description" class="contentContainer descriptionContainer blue">
+  		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="descriptionInnerContainer">
-			  	<img src="{{contentObject.details.imageUrl}}" class="descriptionImage green"></img>
+			  	<img src="{{contentObject.details.imageUrl}}" class="descriptionImage green"></img>&nbsp;&nbsp;
 			  	<div class="descriptionTextContainer">
 			  		<div ng-bind-html="contentObject.details.text" class="descriptionText"></div>
 			  	</div>

@@ -1,6 +1,6 @@
 {
 	"index": {
-		"title": "",
+		"title": "home",
 		"type": "choices",
 		"details": {
 			"choices": [
@@ -31,8 +31,8 @@
 		"title": "about",
 		"type": "description",
 		"details": {
-			"imageUrl": "",
-			"text": "i am zak avila\n\nthis is my personal website"
+			"imageUrl": "images/me.png",
+			"text": "I am Zak Avila.<br><br>I have been writing code for most of my life. I was first exposed to programming in elementary school by a program called ZZT. I developed games for it with its basic programming language. During middle school, I started to teach myself C++ using whatever resources I could get my hands on.<br><br>After getting my first smartphone in college and learning how to develop apps, I was addicted. Apps immediately provide you with the information or services you are looking for, just by tapping an icon.<br><br>When I am not developing something, I am probably: running, crowdsurfing at a concert, or pondering consiousness in the shower."
 		}
 	},
 	"projects": {
@@ -52,8 +52,8 @@
 				},
 				{
 					"target": "genremap",
-					"imageUrl": "",
-					"text": "genremap"
+					"imageUrl": "images/genremapicon.png",
+					"text": "genre map"
 				},
 				{
 					"target": "awhile",
@@ -77,7 +77,7 @@
 		"title": "blog",
 		"type": "textLine",
 		"details": {
-			"text": "coming soon"
+			"text": "coming someday"
 		}
 	},
 	"contact": {
@@ -92,7 +92,7 @@
 		"type": "description",
 		"details": {
 			"imageUrl": "",
-			"text": "phraze provides you with random phrases and a timer. It can be used for catch phrase, pictionary, charades, etc."
+			"text": "phraze gives you a random word, a timer, and the challenge of getting the people you are with to guess the word. You can get them to guess the word through explanation, acting, drawing, or all of the above. The rules are up to you!<br><br>phraze can be downloaded for iOS <a href='http://phraze.zakavila.com'>here</a>"
 		}
 	},
 	"spotter": {
@@ -100,15 +100,15 @@
 		"type": "description",
 		"details": {
 			"imageUrl": "",
-			"text": "spotter helps you find your nearby friends. It uses bluetooth to do this, but without pairing.<br><br>It is currently in the app store as 'spotter.'"
+			"text": "spotter helps you find your locate your nearby friends by showing if you are getting 'hotter' or 'colder'. It uses bluetooth to do this, but without pairing.<br><br>spotter is available on iOS <a href='https://appsto.re/us/RzRX1.i'>here</a>"
 		}
 	},
 	"genremap": {
-		"title": "genremap",
+		"title": "genre map",
 		"type": "description",
 		"details": {
 			"imageUrl": "",
-			"text": "genremap uses your facebook artists to create an interactive diagram showing what genres of music you like. It does this for each of your friends as well and uses a custom algorithm to determine which friends are most similar.<br>genremap is located at zakavila.com/genremap"
+			"text": "genre map is a web application that uses your facebook artists to create an interactive diagram showing what genres of music you like. It also does this for each of your friends as well and uses a custom algorithm to determine which friends are most similar.<br><br>genremap can be found <a href='http://genremap.zakavila.com'>here</a>"
 		}
 	},
 	"awhile": {
@@ -116,7 +116,7 @@
 		"type": "description",
 		"details": {
 			"imageUrl": "",
-			"text": "The brainchild of Sebastian Frith, awhile shows you your age converts to different time increments. See awhileapp.com"
+			"text": "The brainchild of Sebastian Frith, awhile is an iOS app that shows what your current age will be at different time increments.<br><br>See more about awhile <a href='http://www.awhileapp.com'>here</a>"
 		}
 	},
 	"superrdio": {
@@ -124,7 +124,7 @@
 		"type": "description",
 		"details": {
 			"imageUrl": "",
-			"text": "Uses lastfm api and the Rdio sdk to create a different interface with the playlist as a drawer."
+			"text": "An iOS app that provides an alternative interface for Rdio with a drawer for easily creating playlists on the go. Uses the Rdio api and LastFM api."
 		}
 	},
 	"hourtracker": {
@@ -132,7 +132,7 @@
 		"type": "description",
 		"details": {
 			"imageUrl": "",
-			"text": "HourTracker contextually determines when you are at work and keeps track of your hours."
+			"text": "HourTracker contextually determines when you are at work and helps keeps track of your hours spent in the office."
 		}
 	}
 }
