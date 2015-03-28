@@ -36,6 +36,11 @@ body {
 	overflow: hidden;
 }
 
+.title {
+	padding-left: 3vw;
+	cursor: pointer;
+}
+
 .contentContainer {
 	height: 100vh;
 	width: 100%;
@@ -56,19 +61,27 @@ body {
 	display: table;
 }
 
-.containerBackButton {
-	height: 9vh;
-	margin: 0px 0px 0vh 1vh;
+.contentTitleContainer {
+	height: 10vh;
+	width: 100%;
 	position: absolute;
-	bottom: 0px;
-	font-size: 5vh;
+	top: 1vh;
+	font-size: 32px;
+}
+
+.contentTitle {
+	position: relative;
+  	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .choiceContainer {
 	width: 100%;
 	display: table-cell;
 	vertical-align: middle;
-	padding-top: 5vh;
+	padding-top: 10vh;
 	padding-bottom: 5vh;
 }
 
@@ -78,6 +91,7 @@ body {
 	margin: 15px;
 	display: inline-block;
 	vertical-align: middle;
+	cursor: pointer;
 }
 
 .choice:hover {
@@ -118,15 +132,18 @@ body {
 .descriptionInnerContainer {
 	display: table-cell;
 	vertical-align: middle;
-	padding-top: 5vh;
+	padding-top: 10vh;
 	padding-bottom: 5vh;
 }
 
-.descriptionImage {
+.descriptionImageContainer {
 	width: 300px;
 	height: 300px;
 	display: inline-block;
 	vertical-align: middle;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .descriptionTextContainer {
@@ -136,11 +153,24 @@ body {
 }
 
 .descriptionText {
+	line-height: 150%;
 	margin-top: 20px;
 	text-align: justify;
 }
 
+a:link {
+	color: #EEF4EA;
+}
+
+a:visited {
+	color: #EEF4EA;
+}
+
 @media only screen and (max-device-width: 415px) {
+	.contentTitleContainer {
+		font-size: 5vw;
+	}
+
 	.choice {
 		width: 90vw;
 		height: 90vw;
@@ -171,7 +201,7 @@ body {
 		padding-bottom: 10vh;
 	}
 
-	.descriptionImage {
+	.descriptionImageContainer {
 		width: 70vw;
 		height: 70vw;
 	}
