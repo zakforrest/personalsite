@@ -172,8 +172,8 @@ a:visited {
 	}
 
 	.choice {
-		width: 90vw;
-		height: 90vw;
+		width: 45vw;
+		height: 45vw;
 	}
 
 	.choice:hover {
@@ -181,19 +181,19 @@ a:visited {
 	}
 
 	.choiceImageContainer {
-		width: 70vw;
-		height: 70vw;
+		width: 35vw;
+		height: 35vw;
 	}
 
 	.choiceImage {
-		width: 45vw;
-		height: 45vw;
-		top: 12.5vw;
-		left: 12.5vw;
+		width: 22.5vw;
+		height: 22.5vw;
+		top: 6.25vw;
+		left: 6.25vw;
 	}
 
 	.choiceText {
-		font-size: 7vw;
+		font-size: 3.5vw;
 	}
 
 	.descriptionInnerContainer {
