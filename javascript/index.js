@@ -9,10 +9,6 @@ var contentObjectDictionary = {};
 
 $(document).ready(function() {
 
-	$(document).on("click", ".title", function() {
-		window.location.hash = "";
-	});
-
 	$.getJSON("contentObjectDictionary.json", function(data) {
 		contentObjectDictionary = data;
 		for (var property in contentObjectDictionary) {
@@ -30,9 +26,27 @@ $(document).ready(function() {
 		document.getElementById("pageContent").style.opacity=1.0;
 	});
 
+	$(document).on("click", ".title", function() {
+		window.location.hash = "";
+	});
+
 	$(document).on("click", ".choice", function() {
 		var targetPage = angular.element(this).scope().choice.target;
 		window.location.hash = targetPage;
+	});	
+
+	$(document).on("click", ".descriptionImageContainer", function() {
+		var targetPage = document.location.hash;
+		if (targetPage=="") { targetPage = "index" };
+		targetPage = targetPage.replace("#", "");
+		if (contentObjectDictionary[targetPage].details.preview) {
+			var swipeboxImages = [];
+			for (var index = 0; index < contentObjectDictionary[targetPage].details.imageUrl.length; index++) {
+				var image = contentObjectDictionary[targetPage].details.imageUrl[index];
+				swipeboxImages.push({ href: image, title: '' });
+			}
+			$.swipebox(swipeboxImages);
+		}
 	});
 
 });
