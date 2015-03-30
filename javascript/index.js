@@ -12,7 +12,8 @@ $(document).ready(function() {
 	$.getJSON("contentObjectDictionary.json", function(data) {
 		contentObjectDictionary = data;
 		for (var property in contentObjectDictionary) {
-			if (contentObjectDictionary.hasOwnProperty(property)&&contentObjectDictionary[property].details.text) {
+			if (contentObjectDictionary.hasOwnProperty(property)&&"text" in contentObjectDictionary[property].details) {
+				contentObjectDictionary[property].details.text = contentObjectDictionary[property].details.text.split("!removethis!").join("");
 				contentObjectDictionary[property].details.text = window.trustAsHtml(contentObjectDictionary[property].details.text);
 			}
 		}
