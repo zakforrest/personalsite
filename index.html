@@ -47,10 +47,12 @@
 		  <div ng-switch-when="description" class="contentContainer descriptionContainer blue">
   		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="descriptionInnerContainer">
-			  	<div style="background-image: url({{contentObject.details.imageUrl[0]}})" class="descriptionImageContainer"></div>&nbsp;&nbsp;
-			  	<div class="descriptionTextContainer">
-			  		<div ng-bind-html="contentObject.details.text" class="descriptionText"></div>
-			  	</div>
+		  		<div class="descriptionContentWrapper">
+				  	<div style="background-image: url({{contentObject.details.imageUrl[0]}})" class="descriptionImageContainer"></div>&nbsp;&nbsp;
+				  	<div class="descriptionTextContainer">
+				  		<div ng-bind-html="contentObject.details.text" class="descriptionText"></div>
+				  	</div>
+			  </div>
 		    </div>
 		  </div>
 		  <div ng-switch-default class="contentContainer textLineContainer blue">
