@@ -55,6 +55,19 @@ $(document).ready(function() {
 		}
 	});
 
+	$(document).on("click", ".screenshotLink", function() {
+		var objectIndex = $(this).attr("objectIndex");
+		var targetPage = document.location.hash;
+		if (targetPage=="") { targetPage = "index" };
+		targetPage = targetPage.replace("#", "");
+		var swipeboxImages = [];
+		for (var index = 0; index < contentObjectDictionary[targetPage].details.choices[objectIndex].screenshots.length; index++) {
+			var image = contentObjectDictionary[targetPage].details.choices[objectIndex].screenshots[index];
+			swipeboxImages.push({ href: image, title: '' });
+		}
+		$.swipebox(swipeboxImages);
+	});
+
 });
 
 window.onpopstate = function(event) {

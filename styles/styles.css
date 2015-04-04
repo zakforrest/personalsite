@@ -191,6 +191,11 @@ body {
 	line-height: 150%;
 }
 
+.screenshotLink {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 .textLine {
 	display: inline-block;
 	top: 50%;

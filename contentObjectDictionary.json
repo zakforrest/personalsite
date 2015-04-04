@@ -44,58 +44,66 @@
 				{
 					"target": "phraze",
 					"imageUrl": "images/phrazeicon.png",
+					"screenshots": ["images/phraze/first.png", "images/phraze/second.png", "images/phraze/third.png"],
 					"title": "phraze",
 					"subtitle": "March 2015 - Present",
-					"text": "- iOS game that gives random words, a timer, and the challenge of getting the people you are with to guess the word<br>- Added to the app store on 4/1/2015<br><br>Click <a href=''>here</a> for screenshots and <a href='http://phraze.zakavila.com'>here</a> to download"
+					"text": "▪ iOS game that gives random words, a timer, and the challenge of getting the people you are with to guess the word<br>▪ Added to the app store on 4/1/2015<br><br>Click <span objectIndex=0 class='screenshotLink' href=''>here</span> for screenshots and <a href='https://appsto.re/us/OEfl6.i'>here</a> to download"
 				},
 				{
 					"target": "spotter",
 					"imageUrl": "images/spottericon.png",
+					"screenshots": ["images/spotter/first.png", "images/spotter/second.png", "images/spotter/third.png", "images/spotter/fourth.png"],
 					"title": "spotter",
 					"subtitle": "April 2014 - Present",
-					"text": "- iOS app that creatively displays your distance from another person by showing if you are getting 'hotter' or 'colder'<br>- Uses BLE without pairing or connecting<br>- Added to the app store on 7/22/2014 and updated for iOS8<br><br>Click <a href=''>here</a> for screenshots and <a href='https://appsto.re/us/RzRX1.i'>here</a> to download"
+					"text": "▪ iOS app that creatively displays your distance from another person by showing if you are getting 'hotter' or 'colder'<br>▪ Uses BLE without pairing or connecting<br>▪ Added to the app store on 7/22/2014 and updated for iOS8<br><br>Click <span objectIndex=1 class='screenshotLink'>here</span> for screenshots and <a href='https://appsto.re/us/RzRX1.i'>here</a> to download"
 				},
 				{
 					"target": "genremap",
 					"imageUrl": "images/genremapicon.png",
+					"screenshots": ["images/genremap/first.png", "images/genremap/second.png", "images/genremap/third.png", "images/genremap/fourth.png", "images/genremap/fifth.png"],
 					"title": "genre map",
 					"subtitle": "February 2014 - May 2014",
-					"text": "- Interactive visualization using D3.js and the Echonest API to compare music genre interests between friends<br>- Java backend on Google App Engine for computations<br>- Optimized for scalability with the Echonest API limits<br>- Uses custom algorithm to determine friends with similar interests<br><br>Click <a href=''>here</a> for screenshots and <a href='http://genremap.zakavila.com'>here</a> to try it out"
+					"text": "▪ Interactive visualization using D3.js and the Echonest API to compare music genre interests between friends<br>▪ Java backend on Google App Engine for computations<br>▪ Optimized for scalability with the Echonest API limits<br>▪ Uses custom algorithm to determine friends with similar interests<br><br>Click <span objectIndex=2 class='screenshotLink'>here</span> for screenshots and <a href='http://genremap.zakavila.com'>here</a> to try it out"
 				},
 				{
 					"target": "awhile",
 					"imageUrl": "images/awhileicon.png",
+					"screenshots": ["images/awhile/first.png", "images/awhile/second.png", "images/awhile/third.png"],
 					"title": "awhile",
 					"subtitle": "March 2014 - May 2014",
-					"text": "- iOS app that converts between your age and different increments of time<br>- Created a unique half-circle spinner that can infinitely loop or increase its contents<br><br>Click <a href=''>here</a> for screenshots and <a href='http://www.awhileapp.com'>here</a> to see more"
+					"text": "▪ iOS app that converts between your age and different increments of time<br>▪ Created a unique half-circle spinner that can infinitely loop or increase its contents<br><br>Click <span objectIndex=3 class='screenshotLink'>here</span> for screenshots and <a href='http://www.awhileapp.com'>here</a> to see more"
 				},
 				{
 					"target": "superrdio",
 					"imageUrl": "images/superrdioicon.png",
+					"screenshots": [],
 					"title": "SuperRdio",
 					"subtitle": "January 2014 - February 2014",
-					"text": "- Alternative iOS interface for Rdio app with additional features added<br>- Uses Rdio and LastFM APIs to achieve a more user friendly interface<br><br>Click <a href=''>here</a> for screenshots"
+					"text": "▪ Alternative iOS interface for Rdio app with additional features added<br>▪ Uses Rdio and LastFM APIs to achieve a more user friendly interface"
 				},
 				{
 					"target": "",
 					"imageUrl": "",
+					"screenshots": [],
 					"title": "ContextLock",
 					"subtitle": "December 2013",
-					"text": "- Android app that determines where the user frequently spends time so it can lock the phone in foreign places"
+					"text": "▪ Android app that determines where the user frequently spends time so it can lock the phone in foreign places"
 				},
 				{
 					"target": "hourtracker",
 					"imageUrl": "images/hourtrackericon.png",
+					"screenshots": [],
 					"title": "HourTracker",
 					"subtitle": "Fall 2013",
-					"text": "- iOS app to log work hours, designed for iOS7<br>- Contextually learns where the user works so it can give reminders to record the time upon arriving/leaving work"
+					"text": "▪ iOS app to log work hours, designed for iOS7<br>▪ Contextually learns where the user works so it can give reminders to record the time upon arriving/leaving work"
 				},
 				{
 					"target": "",
 					"imageUrl": "",
+					"screenshots": [],
 					"title": "LiveForum",
 					"subtitle": "Summer 2013",
-					"text": "- Android app for creating and posting in location-based message boards<br>- Parse used as a backend"
+					"text": "▪ Android app for creating and posting in location-based message boards<br>▪ Parse used as a backend"
 				}
 			]
 		}
