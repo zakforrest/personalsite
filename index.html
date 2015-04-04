@@ -6,8 +6,6 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="styles/styles.css">
 		<link rel="stylesheet" href="styles/swipebox.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 	</head>
 	<body ng-app="zakavila" ng-controller="ContentController">
 	  <div class="topBar green" style="font-size:20vh">
@@ -15,7 +13,7 @@
 	  	<div class="title">avila</div>
 	  </div>
 	  <div id="pageContent" ng-switch="contentObject.type">
-		  <div ng-switch-when="choices" class="contentContainer choicesContainer blue">
+		  <div ng-switch-when="choices" class="contentContainer choicesContainer blue ng-cloak">
   		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="choiceContainer">
 		  		<div ng-repeat="choice in contentObject.details.choices" class="choice">
@@ -26,7 +24,7 @@
 		  		</div>
 		  	</div>
 		  </div>
-		  <div ng-switch-when="descriptionList" class="contentContainer choicesContainer blue">
+		  <div ng-switch-when="descriptionList" class="contentContainer choicesContainer blue ng-cloak">
   		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="descriptionListContainer">
 		  		<div ng-repeat="choice in contentObject.details.choices" class="descriptionListItem">
@@ -39,11 +37,11 @@
 		  		</div>
 		  	</div>
 		  </div>
-		  <div ng-switch-when="textLine" class="contentContainer textLineContainer blue">
+		  <div ng-switch-when="textLine" class="contentContainer textLineContainer blue ng-cloak">
   		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="textLine">{{contentObject.details.text}}</div>
 		  </div>
-		  <div ng-switch-when="description" class="contentContainer descriptionContainer blue">
+		  <div ng-switch-when="description" class="contentContainer descriptionContainer blue ng-cloak">
   		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="descriptionInnerContainer">
 		  		<div class="descriptionContentWrapper">
@@ -59,7 +57,9 @@
 		  	<div class="textLine"></div>
 		  </div>
 	  </div>
-	  <script src="javascript/jquery.swipebox.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src="javascript/jquery.swipebox.min.js"></script>
 	<script src="javascript/index.js"></script>
 	</body>
 </html>

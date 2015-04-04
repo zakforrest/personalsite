@@ -249,6 +249,10 @@ a:visited {
 	color: #EEF4EA;
 }
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
 @media only screen and (max-device-width: 415px) {
 	.contentTitleContainer {
 		font-size: 5vw;
