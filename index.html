@@ -6,9 +6,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" href="styles/styles.css">
 		<link rel="stylesheet" href="styles/swipebox.css">
-		<script src="javascript/jquery-2.1.3.min.js"></script>
-		<script src="javascript/angular.min.js"></script>
-		<script src="javascript/jquery.swipebox.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 	</head>
 	<body ng-app="zakavila" ng-controller="ContentController">
 	  <div class="topBar green" style="font-size:20vh">
@@ -56,10 +55,11 @@
 		    </div>
 		  </div>
 		  <div ng-switch-default class="contentContainer textLineContainer blue">
-  		  	<div class="contentTitleContainer"><div class="contentTitle">error</div></div>
-		  	<div class="textLine">this page doesn't exist</div>
+  		  	<div class="contentTitleContainer"><div class="contentTitle"></div></div>
+		  	<div class="textLine"></div>
 		  </div>
 	  </div>
+	  <script src="javascript/jquery.swipebox.min.js"></script>
 	<script src="javascript/index.js"></script>
 	</body>
 </html>
