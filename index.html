@@ -32,8 +32,8 @@
 		  	<div class="descriptionListContainer">
 		  		<div ng-repeat="choice in contentObject.details.choices" class="descriptionListItem">
 		  			<div class="descriptionListItemContent">
-		  				<img class="descriptionListItemImage" src="{{choice.imageUrl}}"></img>
-		  				<div class="descriptionListItemContentTitle">{{choice.title}}</div>
+		  				<img ng-if="choice.imageUrl!=''" class="descriptionListItemImage" src="{{choice.imageUrl}}"></img>
+		  				<div ng-class="(choice.imageUrl!='')?'descriptionListItemContentTitle':'descriptionListItemContentTitleFlush'">{{choice.title}}</div>
 		  				<div class="descriptionListItemContentSubtitle">{{choice.subtitle}}</div>
 		  				<div ng-bind-html="choice.text" class="descriptionListItemContentText"></div>
 		  			</div>
