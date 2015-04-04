@@ -16,6 +16,11 @@ $(document).ready(function() {
 				contentObjectDictionary[property].details.text = contentObjectDictionary[property].details.text.split("!removethis!").join("");
 				contentObjectDictionary[property].details.text = window.trustAsHtml(contentObjectDictionary[property].details.text);
 			}
+			else if (contentObjectDictionary.hasOwnProperty(property)&&contentObjectDictionary[property].type=="descriptionList"&&"choices" in contentObjectDictionary[property].details) {
+				for (var index = 0; index < contentObjectDictionary[property].details.choices.length; index++) {
+					contentObjectDictionary[property].details.choices[index].text = window.trustAsHtml(contentObjectDictionary[property].details.choices[index].text);
+				}
+			}
 		}
 		var targetPage = document.location.hash;
 		if (targetPage=="") { targetPage = "index" };

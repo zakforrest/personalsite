@@ -122,6 +122,57 @@ body {
 	font-size: 22px;
 }
 
+.descriptionListContainer {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 10vh;
+	padding-bottom: 5vh;
+}
+
+.descriptionListItem {
+	width: 550px;
+	height: 270px;
+	margin: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #9CB0BD;
+}
+
+.descriptionListItemContent {
+	display: inline-block;
+	margin-top: 25px;
+	background-color: #9cB0BD;
+	width: 500px;
+	height: 220px;
+	position: relative;
+}
+
+.descriptionListItemImage {
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+.descriptionListItemContentTitle {
+	position: absolute;
+	top: 4px;
+	left: 60px;
+	font-size: 25px;
+	line-height: 42px;
+}
+
+.descriptionListItemContentText {
+	top: 58px;
+	font-size: 17px;
+	overflow: hidden;
+	text-align: justify;
+	position: absolute;
+	line-height: 150%;
+}
+
 .textLine {
 	display: inline-block;
 	top: 50%;
@@ -195,6 +246,33 @@ a:visited {
 
 	.choiceText {
 		font-size: 3.5vw;
+	}
+
+	.descriptionListItem {
+		width: 90vw;
+		height: 45vw;
+	}
+
+	.descriptionListItemContent {
+		width: 80vw;
+		height: 35vw;
+		margin-top: 5vw;
+	}
+
+	.descriptionListItemImage {
+		width: 8.75vw;
+		height: 8.75vw;
+	}
+
+	.descriptionListItemContentTitle {
+		font-size: 4vw;
+		left: 11.5vw;
+		line-height: 7.5vw;
+	}
+
+	.descriptionListItemContentText {
+		top: 11.5vw;
+		font-size: 2.5vw;
 	}
 
 	.descriptionInnerContainer {

@@ -24,6 +24,18 @@
 		  		</div>
 		  	</div>
 		  </div>
+		  <div ng-switch-when="descriptionList" class="contentContainer choicesContainer blue">
+  		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
+		  	<div class="descriptionListContainer">
+		  		<div ng-repeat="choice in contentObject.details.choices" class="descriptionListItem">
+		  			<div class="descriptionListItemContent">
+		  				<img class="descriptionListItemImage" src="{{choice.imageUrl}}"></img>
+		  				<div class="descriptionListItemContentTitle">{{choice.title}}</div>
+		  				<div ng-bind-html="choice.text" class="descriptionListItemContentText"></div>
+		  			</div>
+		  		</div>
+		  	</div>
+		  </div>
 		  <div ng-switch-when="textLine" class="contentContainer textLineContainer blue">
   		  	<div class="contentTitleContainer"><div class="contentTitle">{{contentObject.title}}</div></div>
 		  	<div class="textLine">{{contentObject.details.text}}</div>
