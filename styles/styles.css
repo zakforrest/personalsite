@@ -261,6 +261,7 @@ a:visited {
 	.choice {
 		width: 45vw;
 		height: 45vw;
+		margin: 0;
 	}
 
 	.choice:hover {
