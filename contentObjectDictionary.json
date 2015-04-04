@@ -45,36 +45,42 @@
 					"target": "phraze",
 					"imageUrl": "images/phrazeicon.png",
 					"title": "phraze",
+					"subtitle": "March 2015 - Present",
 					"text": "phraze gives you a random word, a timer, and the challenge of getting the people you are with to guess the word. You can get them to guess the word through explanation, acting, drawing, or all of the above. The rules are up to you!<br><br>phraze can be downloaded for iOS <a href='http://phraze.zakavila.com'>here</a>"
 				},
 				{
 					"target": "spotter",
 					"imageUrl": "images/spottericon.png",
 					"title": "spotter",
+					"subtitle": "April 2014 - Present",
 					"text": "spotter helps you find your locate your nearby friends by showing if you are getting 'hotter' or 'colder'. It uses bluetooth to do this, but without pairing.<br><br>spotter is available on iOS <a href='https://appsto.re/us/RzRX1.i'>here</a>"
 				},
 				{
 					"target": "genremap",
 					"imageUrl": "images/genremapicon.png",
 					"title": "genre map",
+					"subtitle": "February 2014 - May 2014",
 					"text": "genre map is a web application that uses your facebook artists to create an interactive diagram showing what genres of music you like. It also does this for each of your friends as well and uses a custom algorithm to determine which friends are most similar.<br><br>genremap can be found <a href='http://genremap.zakavila.com'>here</a>"
 				},
 				{
 					"target": "awhile",
 					"imageUrl": "images/awhileicon.png",
 					"title": "awhile",
+					"subtitle": "March 2014 - May 2014",
 					"text": "The brainchild of Sebastian Frith, awhile is an iOS app that shows what your current age will be at different time increments.<br><br>See more about awhile <a href='http://www.awhileapp.com'>here</a>"
 				},
 				{
 					"target": "superrdio",
 					"imageUrl": "images/superrdioicon.png",
 					"title": "SuperRdio",
+					"subtitle": "January 2014 - February 2014",
 					"text": "An iOS app that provides an alternative interface for Rdio with a drawer for easily creating playlists on the go. Uses the Rdio api and LastFM api."
 				},
 				{
 					"target": "hourtracker",
 					"imageUrl": "images/hourtrackericon.png",
 					"title": "HourTracker",
+					"subtitle": "Fall 2013",
 					"text": "HourTracker contextually determines when you are at work and helps keeps track of your hours spent in the office."
 				}
 			]
