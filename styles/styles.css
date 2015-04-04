@@ -5,6 +5,8 @@ Green: #679281;
 Blue: #6E90A6;
 Gray: #9CB0BD;
 White: #EEF4EA;
+Dark Blue: #48718C;
+Darker Blue: #295470;
 */
 
 .green {
@@ -12,11 +14,11 @@ White: #EEF4EA;
 }
 
 .blue {
-	background-color: #6E90A6;
+	background-color: #48718C;
 }
 
 .gray {
-	background-color: #9CB0BD;
+	background-color: #295470;/*background-color: #9CB0BD;*/
 }
 
 @font-face {
@@ -95,13 +97,13 @@ body {
 }
 
 .choice:hover {
-	background-color: #9CB0BD;
+	background-color: #295470;
 }
 
 .choiceImageContainer {
 	display: inline-block;
 	margin-top: 25px;
-	background-color: #9cB0BD;
+	background-color: #295470;
 	width: 200px;
 	height: 200px;
 	position: relative;
@@ -136,13 +138,13 @@ body {
 	margin: 15px;
 	display: inline-block;
 	vertical-align: middle;
-	background-color: #9CB0BD;
+	background-color: #295470;
 }
 
 .descriptionListItemContent {
 	display: inline-block;
 	margin-top: 25px;
-	background-color: #9cB0BD;
+	background-color: #295470;
 	width: 500px;
 	height: 220px;
 	position: relative;
@@ -212,7 +214,7 @@ body {
 
 .descriptionContentWrapper {
 	display: inline-block;
-	background-color: #9cB0BD;
+	background-color: #295470;
 	padding: 0px 20px 10px;
 }
 
