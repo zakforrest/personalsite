@@ -50,12 +50,20 @@
 					"text": "▪ iOS game that gives random words, a timer, and the challenge of getting the people you are with to guess the word<br>▪ Added to the app store on 4/1/2015<br><br>Click <span objectIndex=0 class='screenshotLink' href=''>here</span> for screenshots and <a href='https://appsto.re/us/OEfl6.i'>here</a> to download"
 				},
 				{
+					"target": "",
+					"imageUrl": "",
+					"screenshots": ["images/mdas/first.png", "images/mdas/second.png", "images/mdas/third.png"],
+					"title": "Music Degrees of Separation",
+					"subtitle": "December 2014 - January 2015",
+					"text": "▪ iOS app that determines the smallest number of steps to get from one artist to another through Related Artists on Spotify<br>▪ Uses BFS and makes 20 queries/second to get to the target artist<br><br>Click <span objectIndex=1 class='screenshotLink' href=''>here</span> for screenshots"
+				},
+				{
 					"target": "spotter",
 					"imageUrl": "images/spottericon.png",
 					"screenshots": ["images/spotter/first.png", "images/spotter/second.png", "images/spotter/third.png", "images/spotter/fourth.png"],
 					"title": "spotter",
 					"subtitle": "April 2014 - Present",
-					"text": "▪ iOS app that creatively displays your distance from another person by showing if you are getting 'hotter' or 'colder'<br>▪ Uses BLE without pairing or connecting<br>▪ Added to the app store on 7/22/2014 and updated for iOS8<br><br>Click <span objectIndex=1 class='screenshotLink'>here</span> for screenshots and <a href='https://appsto.re/us/RzRX1.i'>here</a> to download"
+					"text": "▪ iOS app that creatively displays your distance from another person by showing if you are getting 'hotter' or 'colder'<br>▪ Uses BLE without pairing or connecting<br>▪ Added to the app store on 7/22/2014 and updated for iOS8<br><br>Click <span objectIndex=2 class='screenshotLink'>here</span> for screenshots and <a href='https://appsto.re/us/RzRX1.i'>here</a> to download"
 				},
 				{
 					"target": "genremap",
@@ -63,7 +71,7 @@
 					"screenshots": ["images/genremap/first.png", "images/genremap/second.png", "images/genremap/third.png", "images/genremap/fourth.png", "images/genremap/fifth.png"],
 					"title": "genre map",
 					"subtitle": "February 2014 - May 2014",
-					"text": "▪ Interactive visualization using D3.js and the Echonest API to compare music genre interests between friends<br>▪ Java backend on Google App Engine for computations<br>▪ Optimized for scalability with the Echonest API limits<br>▪ Uses custom algorithm to determine friends with similar interests<br><br>Click <span objectIndex=2 class='screenshotLink'>here</span> for screenshots and <a href='http://genremap.zakavila.com'>here</a> to try it out"
+					"text": "▪ Interactive visualization using D3.js and the Echonest API to compare music genre interests between friends<br>▪ Java backend on Google App Engine for computations<br>▪ Optimized for scalability with the Echonest API limits<br>▪ Uses custom algorithm to determine friends with similar interests<br><br>Click <span objectIndex=3 class='screenshotLink'>here</span> for screenshots and <a href='http://genremap.zakavila.com'>here</a> to try it out"
 				},
 				{
 					"target": "awhile",
@@ -71,7 +79,7 @@
 					"screenshots": ["images/awhile/first.png", "images/awhile/second.png", "images/awhile/third.png"],
 					"title": "awhile",
 					"subtitle": "March 2014 - May 2014",
-					"text": "▪ iOS app that converts between your age and different increments of time<br>▪ Created a unique half-circle spinner that can infinitely loop or increase its contents<br><br>Click <span objectIndex=3 class='screenshotLink'>here</span> for screenshots and <a href='http://www.awhileapp.com'>here</a> to see more"
+					"text": "▪ iOS app that converts between your age and different increments of time<br>▪ Created a unique half-circle spinner that can infinitely loop or increase its contents<br><br>Click <span objectIndex=4 class='screenshotLink'>here</span> for screenshots and <a href='http://www.awhileapp.com'>here</a> to see more"
 				},
 				{
 					"target": "superrdio",
