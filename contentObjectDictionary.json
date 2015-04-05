@@ -53,7 +53,7 @@
 					"target": "",
 					"imageUrl": "",
 					"screenshots": ["images/mdas/first.png", "images/mdas/second.png", "images/mdas/third.png"],
-					"title": "Music Degrees of Separation",
+					"title": "Artists of Separation",
 					"subtitle": "December 2014 - January 2015",
 					"text": "▪ iOS app that determines the smallest number of steps to get from one artist to another through Related Artists on Spotify<br>▪ Uses BFS and makes 20 queries/second to get to the target artist<br><br>Click <span objectIndex=1 class='screenshotLink' href=''>here</span> for screenshots"
 				},
