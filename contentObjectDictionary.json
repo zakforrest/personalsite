@@ -37,7 +37,7 @@
 		}
 	},
 	"projects": {
-		"title": "projects",
+		"title": "independant projects",
 		"type": "descriptionList",
 		"details": {
 			"choices": [
