@@ -1,0 +1,225 @@
+body {
+	margin: 0px;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+#pageContainer {
+	max-width: 900px;
+	margin: 0px auto;
+	color: #333;
+}
+
+#navigationContainer {
+	position: fixed;
+	width: 200px;
+	top: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+#contentContainer {
+	margin-top: 20px;
+	padding-left: 250px;
+	width: 650px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+
+.navigationTitle {
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 52px;
+	font-weight: 600;
+	text-align: left;
+}
+
+#mobileNavigationTitle {
+	display: none;
+}
+
+#navigationImage {
+	width: 160px;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#menuContainer {
+	margin-top: 15px;
+	margin-left: 20px;
+	text-align: left;
+	font-size: 24px;
+	line-height: 1.6;
+}
+
+#menuContainer a,a:link,a:visited {
+	font-weight: 200;
+	text-decoration: none;
+	color: #333;
+}
+
+#menuContainer a:hover {
+	font-weight: 200;
+	text-decoration: underline;
+	color: #333;
+}
+
+#menuContainer a:active {
+	text-decoration: none;
+	font-weight: 200;
+	color: #333;
+}
+
+#menuContainer #currentPageLink {
+	font-weight: 400;
+}
+
+#aboutSection {
+	font-size: 36px;
+	text-align: right;
+	font-weight: 300;
+	line-height: 2.2;
+}
+
+.projectContainer {
+	width: 650px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	position: relative;
+	display: inline-block;
+}
+
+.projectIcon {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+
+.projectTitle {
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 36px;
+	vertical-align: top;
+}
+
+.projectDate {
+	position: absolute;
+	top: 46px;
+	left: 75px;
+	font-size: 14px;
+	color: #bbb;
+}
+
+.projectDetailsList {
+	margin-top: 25px;
+	margin-left: -40px;
+	list-style-type: none;
+	font-size: 14px;
+	text-align: left;
+}
+
+.projectDetailsList li {
+	margin-top: 15px;
+	line-height: 1.6;
+}
+
+li span {
+	font-size: 18px;
+}
+
+.projectDivider {
+	background-color: #ddd;
+	height: 1px;
+	width: 100%;
+}
+
+#contactsSection {
+	margin-top: 25px;
+}
+
+.contactContainer {
+	display: block;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.contactImage {
+	width: 120px;
+	height: 120px;
+}
+
+.contactUrl {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 120px;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+@media only screen and (max-device-width: 415px) {
+	#pageContainer {
+		width: 100%;
+	}
+
+	#navigationContainer {
+		width: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.navigationTitle {
+		display: none;
+	}
+
+	#mobileNavigationTitle {
+		display: inline-block;
+		width: 100%;
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#menuContainer {
+		display: inline-block;
+		margin-top: 20px;
+		vertical-align: top;
+	}
+
+	#contentContainer {
+		width: 90%;
+		padding-left: 0px;
+	}
+
+	#aboutSection {
+		font-size: 24px;
+	}
+
+	.projectContainer {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	.projectTitle {
+		font-size: 4.5vw;
+	}
+
+	.projectDate {
+		top: 35px;
+		font-size: 4.0vw;
+	}
+
+	.projectDetailsList {
+		display: none;
+	}
+
+	.projectDivider {
+		display: none;
+	}
+
+	.contactUrl {
+		font-size: 4vw;
+	}
+}
