@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	font-family: 'Helvetica Neue', Helvetica, 'Roboto', Arial;
+	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif', Helvetica, Arial;
 }
 
 #pageContainer {
@@ -57,22 +57,26 @@ body {
 	font-weight: 200;
 	text-decoration: none;
 	color: #333;
+	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
 #menuContainer a:hover {
 	font-weight: 200;
 	text-decoration: underline;
 	color: #333;
+	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
 #menuContainer a:active {
 	text-decoration: none;
 	font-weight: 200;
 	color: #333;
+	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
 #menuContainer #currentPageLink {
 	font-weight: 400;
+	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif', Helvetica, Arial;
 }
 
 #aboutSection {
@@ -80,6 +84,7 @@ body {
 	text-align: right;
 	font-weight: 300;
 	line-height: 2.2;
+	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
 .projectContainer {
@@ -102,6 +107,7 @@ body {
 	font-weight: 300;
 	line-height: 36px;
 	vertical-align: top;
+	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
 .projectDate {
@@ -156,6 +162,7 @@ li span {
 	line-height: 120px;
 	font-size: 36px;
 	font-weight: 300;
+	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
 @media only screen and (max-device-width: 415px) {
