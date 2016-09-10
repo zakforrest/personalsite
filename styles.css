@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-family: 'Helvetica Neue', Helvetica, 'Roboto', Arial;
 }
 
 #pageContainer {
@@ -19,6 +19,7 @@ body {
 
 #contentContainer {
 	margin-top: 20px;
+	margin-bottom: 30px;
 	padding-left: 250px;
 	width: 650px;
 	display: inline-block;
@@ -184,11 +185,13 @@ li span {
 		display: inline-block;
 		margin-top: 20px;
 		vertical-align: top;
+		width: 85px;
 	}
 
 	#contentContainer {
 		width: 90%;
 		padding-left: 0px;
+		margin-bottom: 50px;
 	}
 
 	#aboutSection {
@@ -208,7 +211,7 @@ li span {
 
 	.projectDate {
 		top: 35px;
-		font-size: 4.0vw;
+		font-size: 4.0vmin;
 	}
 
 	.projectDetailsList {
