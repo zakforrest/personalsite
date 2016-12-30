@@ -246,7 +246,20 @@ li span {
 	}
 
 	.projectDetailsList {
-		display: none;
+		margin-top: 10px;
+	}
+
+	.projectDetailsList li {
+		margin-top: 10px;
+		line-height: 1.4;
+	}
+
+	.projectDetailsList li span {
+		font-size: 3.5vw;
+	}
+
+	.projectDetailsList img {
+		margin-top: 10px;
 	}
 
 	.projectDivider {
