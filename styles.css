@@ -131,6 +131,30 @@ body {
 	line-height: 1.6;
 }
 
+.projectDetailsList a {
+	font-weight: bold;
+}
+
+.projectDetailsList img {
+	max-width: 120px;
+	max-height: 320px;
+	vertical-align: middle;
+}
+
+.videoPreviewWrapper {
+	position: relative;
+	display: inline-block;
+}
+
+.playButtonOverlay {
+	position: absolute;
+	top: 20%;
+	left: 0px;
+	width: 120px;
+	height: 120px;
+	z-index: 100;
+}
+
 li span {
 	font-size: 18px;
 }
@@ -165,7 +189,7 @@ li span {
 	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
-@media only screen and (max-device-width: 415px) {
+@media only screen and (max-width: 550px) {
 	#pageContainer {
 		width: 100%;
 	}
