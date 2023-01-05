@@ -54,14 +54,14 @@ body {
 }
 
 #menuContainer a,a:link,a:visited {
-	font-weight: 200;
+	font-weight: 300;
 	text-decoration: none;
 	color: #333;
 	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
 #menuContainer a:hover {
-	font-weight: 200;
+	font-weight: 300;
 	text-decoration: underline;
 	color: #333;
 	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
@@ -69,13 +69,14 @@ body {
 
 #menuContainer a:active {
 	text-decoration: none;
-	font-weight: 200;
+	font-weight: 300;
 	color: #333;
 	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif-light', Helvetica, Arial;
 }
 
 #menuContainer #currentPageLink {
-	font-weight: 400;
+	font-weight: 500;
+	text-decoration: underline;
 	font-family: 'Helvetica Neue', 'Segoe UI', 'sans-serif', Helvetica, Arial;
 }
 
